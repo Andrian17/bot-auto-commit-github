@@ -1,8 +1,8 @@
 name: Daily Auto Commit
 
 on:
-  schedule:
-    - cron: '0 6 * * *'  # Setiap hari pada jam 6 pagi UTC
+  workflow_dispatch:
+  
 
 jobs:
   auto_commit:
